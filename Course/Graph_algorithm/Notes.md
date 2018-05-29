@@ -1,0 +1,2 @@
+-Clique: subsets of vertices, all adjacent to each other, a complete subgraph.
+-Chromatic number: the smallest number of colors needed to color a graph.
