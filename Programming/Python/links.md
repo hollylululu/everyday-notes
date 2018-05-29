@@ -1,1 +1,0 @@
-High performance python github: https://github.com/mynameisfiber/high_performance_python
