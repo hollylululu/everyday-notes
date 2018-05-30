@@ -9,3 +9,7 @@
 
 
 * Daily Notes
+ * \[Reading Notes\]
+ * \[Technical Notes\]
+
+
