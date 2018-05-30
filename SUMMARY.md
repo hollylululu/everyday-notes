@@ -7,7 +7,7 @@
   * Strongly Connected Components
   * Minimum Spanning Tree
   * Max Flow Problem
-  * Graph Coloring
+  * [Graph Coloring](graph-algorithm/graph-coloring.md)
 * Daily Notes
   * Reading Notes
   * Technical Notes
