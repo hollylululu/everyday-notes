@@ -19,7 +19,7 @@ def BFS (graph, start):
 
 ## Python Implementation
 
-```text
+```python
 from collections import deque
 
 class BFSearcher:
