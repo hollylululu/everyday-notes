@@ -3,7 +3,7 @@
 * [Content](./)
 * Graph Algorithm
   * [Depth-First Search](graph-algorithm/depth-first-search.md)
-  * [Breadth-First Search](https://lus-notes.gitbook.io/project/graph-algorithm/breadth-first-search)
+  * [Breadth-First Search](graph-algorithm/breadth-first-search.md)
   * Strongly Connected Components
   * Minimum Spanning Tree
 * Daily Notes
