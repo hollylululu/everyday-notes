@@ -35,7 +35,7 @@ The above dictionary shows a simple graph with 7 vertices and 13 edges.
 
 ### Python Implementation
 
-```text
+```python
 class DFSearcher: 
     def __init__ (self):
         self.reached_set = list()
