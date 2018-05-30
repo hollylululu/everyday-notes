@@ -11,7 +11,7 @@ class BFSearcher:
     def BFS (self, G, start):
         self.reached.append(start)
         self.queue.append(start)
-        while not self.queue:
+        while self.queue:
             v = self.queue.popleft()
             edges = G[v]
             for w in edges:
