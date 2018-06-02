@@ -9,7 +9,7 @@
   * Max Flow Problem
   * [Graph Coloring](graph-algorithm/graph-coloring.md)
 * Notes
-  * [Reading Notes](daily-notes/reading-notes.md)
-  * [Technical Notes](daily-notes/technical-notes.md)
-  * Paper Notes
+  * [Reading Notes](notes/reading-notes.md)
+  * [Technical Notes](notes/technical-notes.md)
+  * [Paper Notes](notes/paper-notes.md)
 
