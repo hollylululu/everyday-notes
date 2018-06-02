@@ -8,7 +8,8 @@
   * Minimum Spanning Tree
   * Max Flow Problem
   * [Graph Coloring](graph-algorithm/graph-coloring.md)
-* Daily Notes
+* Notes
   * [Reading Notes](daily-notes/reading-notes.md)
   * [Technical Notes](daily-notes/technical-notes.md)
+  * Paper Notes
 
