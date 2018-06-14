@@ -23,7 +23,7 @@ class TarjanFinder:
             if v not in self.prev:
                 self.prev[v] = None
             if v not in self.index:
-                self.index[v] = float("inf")
+                self.index[v] = 0
             if v not in self.visited:
                 self.visited[v] = 0
 
