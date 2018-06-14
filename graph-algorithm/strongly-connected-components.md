@@ -48,9 +48,7 @@ def tarjan_sub(v):
 
 ### Python Implementation
 
-I am only showing the main recursion function here, since the initialization part is rather trivial. Full version of the implementation can be found here:
-
-{% embed data="{\"url\":\"https://github.com/hollylululu/everyday-notes/blob/master/coding/tarjan\_scc.py\",\"type\":\"link\",\"title\":\"hollylululu/everyday-notes\",\"description\":\"everyday-notes - Notes\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars3.githubusercontent.com/u/22967489?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+I am only showing the main recursion function here, since the initialization part is rather trivial. 
 
 ```python
 def tarjan_sub(self, v):
