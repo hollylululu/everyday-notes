@@ -7,5 +7,5 @@
 
 ## Tarjan's SCC algorithm
 
-
+Tarjan's SCC algorithm takes linear time and uses one pass of a DFS. It adds two additional pieces of information to the original DFS: DFS numbering \(preorder\) and lowlink numbers. It uses a stack to keep track of the DFS visiting. 
 
