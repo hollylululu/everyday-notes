@@ -2,11 +2,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import division
 import os
-import collections
-from collections import defaultdict
-import timeit
-import string
-import argparse
+
 
 class DFSearcher:
     def __init__ (self):
