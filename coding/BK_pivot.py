@@ -49,7 +49,7 @@ def main():
         data = json.load(f)
     tester = BkPivot(data)
     #print tester.find_best_pivot(data)
-    print tester.BkMain(set(), tester.get_args(), set())
+    print tester.get_neighbors('c')
 
 if __name__ == "__main__":
     main()
