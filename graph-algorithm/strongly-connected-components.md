@@ -7,7 +7,7 @@
 
 ## Tarjan's SCC algorithm
 
-Tarjan's SCC algorithm takes linear time and uses one pass of a DFS. It adds two additional pieces of information to the original DFS: DFS numbering \(preorder\) and lowlink numbers. It uses a stack to keep track of the DFS visiting. 
+Tarjan's SCC algorithm takes linear time and uses one pass of a DFS. It adds two additional pieces of information to the original DFS: DFS numbering \(preorder\) and lowlink numbers. It uses a stack to keep track of the DFS visiting.
 
 ### Pseudocode
 
@@ -20,12 +20,12 @@ def tarjan_main (G, s):
         index[v] = 0
         visited[v] = false
     index[s] = 0
-    
+
 \\iterations
     for all v in G:
         if not visited[v]:
             tarjan_sub(v)
-            
+
 def tarjan_sub(v):
 \\update the status of the currently visited vertex
     index[v] = counter
@@ -39,16 +39,15 @@ def tarjan_sub(v):
             low[v] = min(low[v], low[u])
         elif u in stack:
             low[v] = min(low[v], index[u])
-    
+
 \\finish iterating all neighbors
     if low[v] == index[v]:
         pop vertices off stack until vertex == v
-        
 ```
 
 ### Python Implementation
 
-I am only showing the main recursion function here, since the initialization part is rather trivial. 
+I am only showing the main recursion function here, since the initialization part is rather trivial.
 
 ```python
 def tarjan_sub(self, v):
@@ -57,7 +56,7 @@ def tarjan_sub(self, v):
     counter += 1
     self.stack.append(v)
     self.visited[v] = 1
-    
+
     for u in self.date[v]:
         if not self.visited[u]:
             tarjan_sub(u)
@@ -78,9 +77,7 @@ def tarjan_sub(self, v):
 For the following input graph:
 
 ```text
-
 {"start": ["a", "b", "c"],     "a": ["b", "d", "e"],     "b": ["c", "e", "f"],     "c": ["f"],     "d": ["e"],     "e": ["b"],     "f":["c"]}
-
 ```
 
 The graph looks like:
@@ -104,5 +101,5 @@ start
 
 ### Runtime Analysis
 
-Each vertex and edge will be visited once and only once. Thus, it is easy to see that the runtime for the algorithm is O\(E+V\). 
+Each vertex and edge will be visited once and only once. Thus, it is easy to see that the runtime for the algorithm is O\(E+V\).
 
