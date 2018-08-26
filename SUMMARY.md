@@ -11,6 +11,6 @@
 * [Notes](notes/README.md)
   * [Reading Notes](notes/reading-notes.md)
   * [Technical Notes](notes/technical-notes.md)
-  * [Paper Notes](notes/paper-notes.md)
 * [Learning Go](learning-go.md)
+* [Resources](resources.md)
 
