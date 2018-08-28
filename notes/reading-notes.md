@@ -26,9 +26,9 @@ The notes provided references to many relevant papers and books regarding povert
 
 | Book/Paper | Ref |
 | :--- | :--- |
-| Eviction and the Reproduction of Urban Poverty | American Journal of Sociology, 2012 |
+| [Eviction and the Reproduction of Urban Poverty](https://scholar.harvard.edu/files/mdesmond/files/desmond.evictionpoverty.ajs2012.pdf) | American Journal of Sociology, 2012 |
 | The Colors of Poverty: Why Racial and Ethnic Disparities Persist | Book by David Harris & Ann Lin, 2008 |
-| "Against Interpretation" in A Susan Sontag Reader | Book, 1982 |
+| ["Against Interpretation" in A Susan Sontag Reader](http://shifter-magazine.com/wp-content/uploads/2015/10/Sontag-Against-Interpretation.pdf) | Book, 1982 |
 
 
 
