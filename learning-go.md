@@ -1,7 +1,3 @@
----
-description: Notes on learning Golang.
----
-
 # Learning Go
 
 ### Install Go on Mac

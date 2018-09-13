@@ -12,4 +12,3 @@
   * [Reading Notes](notes/reading-notes.md)
   * [Technical Notes](notes/technical-notes.md)
 
-
